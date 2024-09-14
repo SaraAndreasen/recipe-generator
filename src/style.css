@@ -3,3 +3,54 @@ body {
   text-align: center;
   font-family: "Chivo", sans-serif;
 }
+
+header {
+  margin-top: 15%;
+}
+main {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+#prompt-input {
+  border: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: burlywood;
+}
+
+#submit-button {
+  border: 0;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: burlywood;
+  margin-left: 5px;
+}
+
+#submit-button:hover {
+  background-color: chocolate;
+}
+
+.recipe-container {
+  background-color: burlywood;
+  border-radius: 5px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.footer-links {
+  color: black;
+}
