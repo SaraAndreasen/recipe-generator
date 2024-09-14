@@ -4,12 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Recipe AI Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Recipe Generator</h1>
-    <h2>Search for a recipe below 👇</h2>
-    <input type="text" placeholder="Pasta Carbonara" />
+    <header>
+      <h1>Welcome to the AI Recipe Generator</h1>
+    </header>
+    <main>
+      <h2>Search for a recipe below 👇</h2>
+      <form action="">
+        <input type="text" placeholder="Pasta Carbonara" required />
+        <input type="button" value="search" />
+      </form>
+      <div>
+        <p id="response">Recipe here..</p>
+      </div>
+    </main>
 
     <footer>
       <div class="footer-links">
