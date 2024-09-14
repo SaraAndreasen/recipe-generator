@@ -1,5 +1,5 @@
 body {
-  background-color: khaki;
+  background-color: #f0d58c;
   font-family: sans-serif;
 }
 
@@ -9,27 +9,24 @@ header {
 
 main {
   margin: 0 auto;
-  max-width: 60%;
 }
 
+form,
+h2,
 h1 {
   text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
-
-form {
-  text-align: center;
+h3 {
+  margin-left: 10px;
 }
 
 a {
-  color: black;
+  color: #000000;
 }
 
 a:hover {
-  color: chocolate;
+  color: #d2691e;
 }
 
 footer {
@@ -37,36 +34,75 @@ footer {
   text-align: center;
 }
 
+form {
+  display: flex;
+}
+
 #prompt-input {
   border: 1;
   padding: 12px;
   border-radius: 20px;
   border-width: 3px;
-  border-color: burlywood;
-  text-align: center;
+  border-color: #deb887;
+  width: 75%;
 }
 
 #submit-button {
   border: 0;
   padding: 12px;
+  margin-left: 1px;
   border-radius: 20px;
-  background-color: burlywood;
-  margin-left: 5px;
-  text-align: center;
+  background-color: #deb887;
+  width: 25%;
 }
 
 #submit-button:hover {
-  background-color: chocolate;
+  background-color: #d2691e;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 50%;
+  box-shadow: -13px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form-container p {
+  font-size: 12px;
+  color: #808080;
+  font-style: italic;
 }
 
 .recipe-container {
-  background-color: white;
-  border-left-color: burlywood;
+  background-color: #ffffff;
+  border-left-color: #deb887;
   border-radius: 5px;
   max-width: 60%;
   margin: 0 auto;
+  box-shadow: 0px 7px 13px 0px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-response {
+  margin-left: 5px;
 }
 
 .footer-links {
-  color: black;
+  color: #000000;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

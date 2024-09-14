@@ -20,20 +20,23 @@
     </header>
     <main>
       <h2>Search for a recipe below 👇</h2>
-      <form action="" id="recipe-generator-form">
-        <input
-          type="text"
-          placeholder="Pasta Carbonara"
-          required
-          id="prompt-input"
-        />
-        <input type="submit" value="Search" id="submit-button" />
-      </form>
+      <div class="form-container">
+        <form action="" id="recipe-generator-form">
+          <input
+            type="text"
+            placeholder="A recipe you'd like to make.."
+            required
+            id="prompt-input"
+          />
+          <input type="submit" value="Search" id="submit-button" />
+        </form>
+        <p class="prompt-suggestion">i.e. spaghetti carbonára</p>
+      </div>
+
       <div class="recipe-container">
         <p id="recipe-response"></p>
       </div>
     </main>
-
     <footer>
       <div class="footer-links">
         <p>
