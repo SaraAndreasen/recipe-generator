@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -18,17 +19,17 @@
     </header>
     <main>
       <h2>Search for a recipe below 👇</h2>
-      <form action="">
+      <form action="" id="recipe-generator-form">
         <input
           type="text"
           placeholder="Pasta Carbonara"
           required
           id="prompt-input"
         />
-        <input type="button" value="Search" id="submit-button" />
+        <input type="submit" value="Search" id="submit-button" />
       </form>
       <div class="recipe-container">
-        <p id="response">Recipe here..</p>
+        <p id="recipe-response">Recipe here..</p>
       </div>
     </main>
 
