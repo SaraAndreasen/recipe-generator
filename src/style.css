@@ -1,15 +1,27 @@
 body {
   background-color: khaki;
-  text-align: center;
-  font-family: "Chivo", sans-serif;
+  font-family: sans-serif;
 }
 
 header {
-  margin-top: 15%;
+  margin-top: 5%;
 }
+
 main {
   margin: 0 auto;
   max-width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
 }
 
 a {
@@ -21,7 +33,8 @@ a:hover {
 }
 
 footer {
-  margin-top: 10%;
+  margin-top: 5%;
+  text-align: center;
 }
 
 #prompt-input {
@@ -30,6 +43,7 @@ footer {
   border-radius: 20px;
   border-width: 3px;
   border-color: burlywood;
+  text-align: center;
 }
 
 #submit-button {
@@ -38,6 +52,7 @@ footer {
   border-radius: 20px;
   background-color: burlywood;
   margin-left: 5px;
+  text-align: center;
 }
 
 #submit-button:hover {
@@ -45,7 +60,8 @@ footer {
 }
 
 .recipe-container {
-  background-color: burlywood;
+  background-color: white;
+  border-left-color: burlywood;
   border-radius: 5px;
   max-width: 60%;
   margin: 0 auto;
